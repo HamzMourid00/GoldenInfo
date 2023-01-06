@@ -1,5 +1,5 @@
-#### GoldenInfo
-## GoldenInfo is simple python script to automate dorcking search
+# GoldenInfo
+#### GoldenInfo is simple python script to automate dorcking search
 
 Google Dorks are advanced search queries that are used to find specific information on the internet. They are often used to find specific websites or documents that may not be easily discoverable through a normal search. Google Dorks are formed by using special operators and commands in the Google search engine that allow users to search for specific types of information. They can be used to find websites that contain a specific type of content, are hosted on a specific type of server, or have a specific type of vulnerability. Some examples of Google Dorks include:
 
