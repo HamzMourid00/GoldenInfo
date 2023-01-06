@@ -14,6 +14,35 @@ inurl:"viewerframe?mode=refresh" - searches for pages with "viewerframe?mode=ref
 intext:"email" filetype:xls - searches for Microsoft Excel spreadsheets that contain the word "email"
 intext:"private" intext:"key" filetype:pem - searches for files with the .pem extension that contain both "private" and "key"
 ```
+### Examples
+'''
+filetype:php inurl:catalog/admin/
+
+inurl:group_concat(username, filetype:php intext:admin
+
+intext:@gmail.com filetype:xls
+
+intext:charset_test= email= default_persistent=
+
+filetype:sql inurl:wp-content/backup-*
+
+inurl:/wwwboard/passwd.txt
+
+ext:pwd inurl:(service | authors | administrators | users) “# -FrontPage-”
+
+inurl:config/databases.yml -trac -trunk -”Google Code” -source -repository
+
+server-dbs “intitle:index of”
+
+“inurl:Teamspeak2_RC2/server.log”
+
+“admin account info” filetype:log
+
+filetype:pem pem intext:private
+
+intitle:”Index of..etc” passwd
+
+'''
 
 Google Dorks can be very useful for finding specific types of information on the internet, but they can also be used for malicious purposes, such as locating vulnerable websites or sensitive documents that should not be publicly available. As a result, the use of Google Dorks is sometimes considered a gray area in terms of ethics.
 
