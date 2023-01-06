@@ -15,7 +15,7 @@ intext:"email" filetype:xls - searches for Microsoft Excel spreadsheets that con
 intext:"private" intext:"key" filetype:pem - searches for files with the .pem extension that contain both "private" and "key"
 ```
 ### Examples
-'''
+```
 filetype:php inurl:catalog/admin/
 
 inurl:group_concat(username, filetype:php intext:admin
@@ -41,8 +41,7 @@ server-dbs “intitle:index of”
 filetype:pem pem intext:private
 
 intitle:”Index of..etc” passwd
-
-'''
+```
 
 Google Dorks can be very useful for finding specific types of information on the internet, but they can also be used for malicious purposes, such as locating vulnerable websites or sensitive documents that should not be publicly available. As a result, the use of Google Dorks is sometimes considered a gray area in terms of ethics.
 
